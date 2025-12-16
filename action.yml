@@ -23,8 +23,7 @@ inputs:
 
 runs:
   using: "docker"
-  # image: "docker://public.ecr.aws/l7o7z1g8/actions/gha-label-artifact-version:main-344c2b7611aa06a4ddf298b378f8d8bef417c846"
-  image: "docker://ghcr.io/karthiknaveene/gha-action/gha-label-artifact-version:latest"
+  image: "docker://public.ecr.aws/l7o7z1g8/actions/gha-label-artifact-version:main-9be3886ac98b5e268459e535d92fb4b8c161305c"
   env:
     CLOUDBEES_API_URL: ${{ inputs.cloudbees-url }}
     ARTIFACT_ID: ${{ inputs.artifact-id }}
